@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+:root{
+    --menu-color: #00BFFF;
+    --text-color: #000000;
+    --title-color: #ff821c;
+    --hover-color: #47cffc; 
+    --destaque-color: #4B0082;
+}
+
+.destaques h1{
+    width: 100%;
+    font-size: 5rem;
+    color: var(--title-color);
+    border-bottom:0.2rem solid black ;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: var(--destaque-color);
+    
+}
+.menu{
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--menu-color);
+    border-bottom: 0.2rem solid black;
+    padding: 2rem 0 ;
+    margin: 0 auto;
+
+    
+}
+
+.conteudo-menu{
+    display:flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    min-width: 120rem;
+    margin: 0 auto;
+}
+.conteudo-menu ul{
+    display: flex;
+    list-style: none;
+    margin-right: 2.5rem;
+    margin: auto;
+    
+}
+.conteudo-menu ul li{
+        display: block;
+        position: relative;
+        height: 100%;
+        padding: 2rem;
+        font-size: 3rem;
+      
+       
+    
+}
+.lista-menu .item{
+    text-decoration: none;
+    color: var(--text-color);
+    size-adjust: auto;
+    border-radius: 1rem;
+    
+}
+.lista-menu input{
+    height: 4rem;
+    width: 35rem;
+    background-image: url(../imgs/icons8-pesquisar.svg);
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+    background-position: right;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+    border-radius: 0.5rem;
+    padding-inline-start: 1rem;
+    font-size: 2rem;
+}
+.gorila{
+    max-width: 12rem;
+    max-height: 12rem;
+    width: auto;
+    height: auto;
+}
+.logo{
+    margin-left: 1rem;
+}
+.lista-menu .item:hover{
+    background-color: var(--hover-color) ;
+}
+
+.carrossel{
+    box-shadow: 0.2rem 0.2rem 0.4rem var(--text-color);
+    overflow: hidden;
+    height: 77.5vh ;
+    max-width: 100vw;
+}
+
+.container{
+    display: flex;
+    transition: transform 1s ease-in-out;
+    transform: translateX(0);
+    max-width: 100vw;
+    
+}
+
+.container img{
+    object-fit:fill;
+    height: 77.5vh;
+    width: 100vw;
+    
+}
+
+
+
+
+    
+   
+   

@@ -1,0 +1,106 @@
+.inputBox {
+ border-top: 1px;
+ border-left: 1px;
+ border-right: 1px;
+}
+/* .container {
+    margin: 2rem auto;
+}
+
+.formulario__cadastro {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    border: 3px solid var(--azul);
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--azul);
+}
+
+.formulario__titulo {
+    text-align: center;
+    background-color: var(--azul);
+    color: var(--branco);
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+
+
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: var(--azul-escuro);
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.dataNasc {
+    border: none;
+    background-color: var(--azul);
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+
+.btn_enviar {
+    background-color: var(--azul);
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    color: var(--branco);
+    padding: 0.5em;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.btn_enviar:hover {
+    background-color: var(--azul-escuro);
+}
+
+.btn_mostrar {
+    border: none;
+    background: none;
+}
+
+.icone__sucesso-email,
+.icone__erro-email,
+.icone__sucesso-senha,
+.icone__erro-senha,
+.icone__sucesso-senha1,
+.icone__erro-senha1,
+.icone__sucesso-tel,
+.icone__erro-tel,
+.icone__sucesso-nome,
+.icone__erro-nome {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+
+.mostrar {
+    display: block;
+} */

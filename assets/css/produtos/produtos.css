@@ -1,0 +1,24 @@
+.container {
+
+}
+
+.titulo__tipo {
+    background-color: var(--azul-escuro);
+    
+}
+
+.titulo {
+    color: var(--branco);
+}
+
+.produtos__lista {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+    
+}
+
+.produtos__item {
+    justify-self: center;
+}

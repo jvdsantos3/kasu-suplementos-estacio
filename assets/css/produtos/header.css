@@ -1,0 +1,20 @@
+.cabecalho__nav {
+    padding: 0 3em;
+    background-color: var(--azul);
+}
+
+.navbar-logo {
+    width: 100px;
+}
+
+.pesquisa__icone {
+    width: 20px;
+}
+
+.botao__pesquisar {
+    border: none;
+}
+
+.icone__perfil {
+    width: 25px;
+}

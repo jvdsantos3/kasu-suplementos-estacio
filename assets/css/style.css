@@ -1,0 +1,27 @@
+@import url(produtos/produtos.css);
+@import url(produtos/card.css);
+@import url(produtos/header.css);
+@import url(cadastro/cadastro.css);
+@import url(login/login.css);
+@import url(index/caixas.css);
+
+
+:root {
+    --font-padrao: 'Josefin Sans', sans-serif;
+    --branco: #fff;
+    --preto: #000;
+    --cinza: #9C9AA0;
+    --verde: #2AB523;
+    --azul: #31c0e4;
+    --vermelho: #df1c1c;
+    --azul-escuro: #0e5668;
+}
+
+body {
+    background-color: #e9e9e9;
+    font-family: var(--font-padrao);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--preto);
+    overflow-x: hidden;
+}

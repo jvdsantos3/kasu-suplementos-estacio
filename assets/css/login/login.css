@@ -1,0 +1,22 @@
+.login {
+    margin: 3rem auto;
+}
+
+.formulario__login {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inputBox__login {
+    position: relative;
+    width: 25vw;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: system-ui;
+    color: red;
+    font-style: italic;
+} 

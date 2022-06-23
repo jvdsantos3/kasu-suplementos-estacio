@@ -1,0 +1,55 @@
+.card__produto {
+    width: 250px;
+    max-height: 500px;
+    padding: 1em;
+    text-align: center;
+}
+
+.card__imagem {
+    width: 200px;
+}
+
+.card__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.card__descricao {
+    font-size: 13px;
+    color: var(--cinza);
+}
+
+.card__preco {
+    font-size: 25px;
+    color: var(--verde);
+    font-weight: 700;
+    margin: .5em 0;
+}
+
+.card__botao {
+    background-color: rgb(42, 181, 35);
+    color: var(--branco);
+    visibility: hidden;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 1em 0;
+    border: none;
+}
+
+.card__botao:hover {
+    background-color: var(--azul);
+}
+
+.produtos__item:hover .card__botao {
+    color: var(--branco);
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 1em 0;
+    visibility: visible;
+}
+.produtos__item:hover .card__preco {
+    font-size: 29px;
+}
