@@ -40,14 +40,19 @@
                             }
                         }
                     ?>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/pedido">Pedido</a>
-                    </li> -->
                 </ul>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
-                    </li>
+                    <?php 
+                        if ($_SESSION) {
+                            if ($_SESSION['usr_admin'] == 1) {
+                                echo '<li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="/carrinho">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                      </li>';
+                            }
+                        }
+                    ?>
                     <li class="nav-item">
                         <div class="d-flex">
                             <div class="dropdown ">

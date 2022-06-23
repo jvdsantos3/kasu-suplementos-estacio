@@ -32,7 +32,7 @@ class Produtos
                 
                 if ($_SESSION) {
                     $view .= "<form method='post' id='my_form' action='/pedido'>
-                                    <button type='submit' name='pdc_id' class='card__botao' data-bs-target='#confirmarDelete' value='" . $pdcData['pdc_id'] . "'>Comprar</button>
+                                    <button type='submit' name='pdc_id' class='card__botao mt-1' data-bs-target='#confirmarDelete' value='" . $pdcData['pdc_id'] . "'>Comprar</button>
                             </form>";
                 }
                             
