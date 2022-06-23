@@ -19,6 +19,7 @@ if (isset($_POST['submit'])) {
                         id="usr_name" 
                         class="form-control inputBox" 
                         placeholder="Nome Completo" 
+                        required
                         >
                     <label for="usr_name">Nome completo</label>
                     <i class="fa fa-remove" hidden></i>
@@ -31,6 +32,7 @@ if (isset($_POST['submit'])) {
                         id="usr_email" 
                         class="form-control inputBox" 
                         placeholder="name@example.com" 
+                        required
                         >
                     <label class="labelInput" for="usr_email">E-mail</label>
                     <i class="fa" hidden></i>
@@ -43,6 +45,7 @@ if (isset($_POST['submit'])) {
                         id="usr_password" 
                         class="form-control inputBox" 
                         placeholder="Ex: 123441" 
+                        required
                         >
                     <label class="labelInput" for="usr_password">Senha</label>
                     <i class="fa" hidden></i>
@@ -55,6 +58,7 @@ if (isset($_POST['submit'])) {
                         id="confirmSenha" 
                         class="form-control inputBox" 
                         placeholder="Confirme senha" 
+                        required
                         >
                     <label class="labelInput" for="ConfirmSenha">Confirme sua senha</label>
                     <i class="fa" hidden></i>
@@ -65,7 +69,8 @@ if (isset($_POST['submit'])) {
                         name="usr_phone" 
                         id="usr_phone" 
                         class="form-control inputBox" 
-                        placeholder="(99) 99999-9999" 
+                        placeholder="(99) 99999-9999"
+                        required 
                         >
                     <label class="labelInput" for="usr_phone">Telefone</label>
                     <i class="fa" hidden></i>
@@ -79,6 +84,7 @@ if (isset($_POST['submit'])) {
                         id="usr_birthdate" 
                         class="form-control inputBox" 
                         placeholder="DD/MM/YYYY" 
+                        required
                         >
                     <i class="fa" hidden></i>
                 </div>

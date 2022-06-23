@@ -1,4 +1,4 @@
-<header class="cabecalho"  style="min-height: 10vh;">
+<header class="cabecalho mb-3"  style="min-height: 10vh;">
     <nav class="navbar navbar-dark navbar-expand-lg cabecalho__nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
